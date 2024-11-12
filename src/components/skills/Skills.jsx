@@ -5,11 +5,14 @@ function Skills() {
     'HTML',
     'CSS',
     'JavaScript',
+    'Bootstrap', 
+    'Tailwind', 
     'React',
     'Git',
     'GitHub',
     'Python',
-
+    'C++', 
+    'Java', 
   ];
 
   return (

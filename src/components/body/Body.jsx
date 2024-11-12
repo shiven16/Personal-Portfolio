@@ -1,30 +1,31 @@
-import { FaFilePdf, FaGithub, FaLinkedin, FaCode } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaCode, FaFileAlt } from 'react-icons/fa';
 import './Body.css';
 
 const Body = () => {
   return (
     <div id='hero' className="body">
      <div className="text-container">
-          <h1>Hi! I&apos;m <span>Siddhartha Shukla</span></h1>
+          <h1>Hi! I'm <span>Shiven Ahuja</span></h1>
           <h3>A Frontend Developer</h3>
      </div>
       <div className="button-container">
-        {/* <a href="/path-to-your-cv.pdf" target="_blank" className="button">
-          <FaFilePdf className="icon" />
-          CV
-        </a> */}
-        <a href="https://github.com/SiddharthaShukla8" target="_blank" className="button">
+        <a href="https://github.com/shiven16" target="_blank" className="button">
           <FaGithub className="icon" />
           GitHub
         </a>
-        <a href="https://www.linkedin.com/in/siddhartha-shukla-6a24072a6/" target="_blank" className="button">
+        <a href="https://www.linkedin.com/in/shiven-ahuja-13238427b/" target="_blank" className="button">
           <FaLinkedin className="icon" />
           LinkedIn
         </a>
-        <a href="https://leetcode.com/u/siddharthashukla260804/" target="_blank" className="button">
-          <FaCode className="icon" />
-          LeetCode
+        <a href="https://drive.google.com/file/d/1IHYbUihLG9wnQiRb24MDn9ODcgPHo7OR/view?usp=sharing" target="_blank" className="button">
+          <FaFileAlt className="icon" />
+          Resume
         </a>
+        <a href="https://codeforces.com/profile/shiven_16" target="_blank" className="button">
+          <FaCode className="icon" />
+          Codeforces
+        </a>
+        
       </div>
     </div>
   );

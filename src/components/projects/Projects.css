@@ -44,7 +44,11 @@
      font-size: 14px;
      color: #666;
    }
-   
+
+   .trip-craft-image {
+    height: 700px;
+    object-fit: cover;
+  }
 
    @media screen and (max-width: 714px) {
      .title{

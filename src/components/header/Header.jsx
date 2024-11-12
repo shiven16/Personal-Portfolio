@@ -4,7 +4,6 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
       <div className="Navbar">
-      {/* <a style={{textDecoration:'none', color:"white", }} to="/"><span className="nav-logo">mk</span></a> */}
 
       <div className={`nav-items ${isOpen && "open"}`}>
           <a href="/" className="nav-logo"><span>mk</span></a>
